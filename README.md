@@ -1,18 +1,28 @@
-## UnBot for AzerothCore Module
+UnBot for AzerothCore Module
+A bot control plugin modified based on the UnBot plugin, serving as a companion plugin for the AzerothCore bot module, making it easier for players to control bots.
 
-一个基于 UnBot 插件修改的机器人控制插件，作为 AzerothCore 机器人模组的配套插件，方便玩家控制机器人
+Currently, it has good support for the Chinese client only.
 
-目前仅对中文客户端有较好支持。
+Installation: Place UnBot and YssBossLoot in the Interface/AddOns/ directory.
 
-安装方式：将 UnBot 和 YssBossLoot 放至 Interface/AddOns/ 目录下
-
-插件界面展示：
-
+Plugin interface display:
 ![](docs/display.png)
+Top left red text: "Initialize the team, all bots in the team"
+Green text: "No need to select a target"
+Red text below green: "Initialize all bots in the team, including their levels, equipment, and skills"
+Light blue text: "Execute command: .playerbot bot init=epic"
+Yellow text below light blue: "Left-click: execute"
+Purple text: "Right-click: apply to quick access button"
+Bottom yellow text: "Bot command ID"
 
-添加指定职业机器人：
-
+Add a bot of a specified class:
 ![](docs/addclass.png)
+
+Summon Hunter Bot
+Summon a bot, this bot is a hunter
+Execute command: .playerbot bot addclass hunter
+
+
 
 
 
